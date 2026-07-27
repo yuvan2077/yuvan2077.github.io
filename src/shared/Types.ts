@@ -29,9 +29,10 @@ export interface ProjectDetails {
 }
 
 export interface TimelineDetails {
-  date: Date;
+  startDate: Date;
+  endDate?: Date;
   event: string;
-  eventDescription: string;
+  location: string;
 }
 
 export interface ContactDetails {
