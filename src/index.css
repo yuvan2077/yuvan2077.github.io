@@ -14,17 +14,17 @@
   --color-primary-900: #920a1b;
   --color-primary-950: #50000a;
 
-  --color-secondary-50: #fff0fb;
-  --color-secondary-100: #ffe3f8;
-  --color-secondary-200: #ffc6f1;
-  --color-secondary-300: #ff98e4;
-  --color-secondary-400: #ff58cf;
-  --color-secondary-500: #ff27bb;
-  --color-secondary-600: #ff00a2;
-  --color-secondary-700: #df0087;
-  --color-secondary-800: #b8006d;
-  --color-secondary-900: #98035b;
-  --color-secondary-950: #5f0038;
+  --color-secondary-50: #f9f6f7;
+  --color-secondary-100: #f5eef0;
+  --color-secondary-200: #eddde1;
+  --color-secondary-300: #dfc2c9;
+  --color-secondary-400: #c99da6;
+  --color-secondary-500: #b67e88;
+  --color-secondary-600: #9f6068;
+  --color-secondary-700: #884e54;
+  --color-secondary-800: #714347;
+  --color-secondary-900: #603b3e;
+  --color-secondary-950: #381f21;
 
   --color-complementary-50: #edfffb;
   --color-complementary-100: #c0fff2;
@@ -57,6 +57,10 @@
 		hover:border-primary-500 hover:scale-150 hover:drop-shadow-2xl
 		active:text-primary-800 active:scale-80 active:drop-shadow-xs;
 }
+
+/* .section {
+  @apply h-screen;
+} */
 
 .section .section-title {
   @apply text-primary-300 text-xl mb-2;
