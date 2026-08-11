@@ -14,17 +14,29 @@
   --color-primary-900: #920a1b;
   --color-primary-950: #50000a;
 
-  --color-secondary-50: #fdf3f3;
-  --color-secondary-100: #fae9e9;
-  --color-secondary-200: #f5d6d7;
-  --color-secondary-300: #edb4b6;
-  --color-secondary-400: #e3898e;
-  --color-secondary-500: #d45f68;
-  --color-secondary-600: #bf4050;
-  --color-secondary-700: #a03041;
-  --color-secondary-800: #862b3c;
-  --color-secondary-900: #732838;
-  --color-secondary-950: #3f121a;
+  --color-secondary-50: #fff0fb;
+  --color-secondary-100: #ffe3f8;
+  --color-secondary-200: #ffc6f1;
+  --color-secondary-300: #ff98e4;
+  --color-secondary-400: #ff58cf;
+  --color-secondary-500: #ff27bb;
+  --color-secondary-600: #ff00a2;
+  --color-secondary-700: #df0087;
+  --color-secondary-800: #b8006d;
+  --color-secondary-900: #98035b;
+  --color-secondary-950: #5f0038;
+
+  --color-complementary-50: #edfffb;
+  --color-complementary-100: #c0fff2;
+  --color-complementary-200: #81ffe7;
+  --color-complementary-300: #3affe0;
+  --color-complementary-400: #00ffdf;
+  --color-complementary-500: #00e2c9;
+  --color-complementary-600: #00b7a7;
+  --color-complementary-700: #009186;
+  --color-complementary-800: #00726b;
+  --color-complementary-900: #045d57;
+  --color-complementary-950: #003a39;
 
   --font-display: 'Montserrat', sans-serif;
   --font-sans: 'Noto Sans', sans-serif;
@@ -44,4 +56,8 @@
   @apply transition-all inline-block text-primary-50
 		hover:border-primary-500 hover:scale-150 hover:drop-shadow-2xl
 		active:text-primary-800 active:scale-80 active:drop-shadow-xs;
+}
+
+.section .section-title {
+  @apply text-primary-300 text-xl mb-2;
 }

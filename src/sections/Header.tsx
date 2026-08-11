@@ -24,7 +24,7 @@ export default function Header() {
         <span className='text-base'>{headerDetails.summaryAfterRole}</span>
       </div>
 
-      <a className='button mx-auto' href={pdfFile} download>
+      <a className='button mx-auto mt-6' href={pdfFile} download>
         <FontAwesomeIcon icon={faDownload} /> Download Resume
       </a>
     </div>

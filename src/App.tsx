@@ -9,18 +9,30 @@ export default function App() {
   return (
     <div className='min-h-screen bg-primary-950 p-2 text-primary-50'>
       <div
-        className='flex flex-col gap-5 font-sans max-w-4xl mx-auto 
-                   bg-linear-to-r from-primary-900 via-primary-950 to-primary-900 
+        className='flex flex-col gap-8 font-sans max-w-4xl mx-auto 
+                   bg-radial from-primary-950 to-primary-900 
                    p-5 rounded-2xl shadow-xl inset-shadow-sm inset-shadow-primary-900'>
         <Header />
 
-        <Skills />
+        <div className='section'>
+          <div className='section-title'>Skills</div>
+          <Skills />
+        </div>
 
-        <Projects />
+        <div className='section'>
+          <div className='section-title'>Projects</div>
+          <Projects />
+        </div>
 
-        <Timelines />
+        <div className='section'>
+          <div className='section-title'>Timeline</div>
+          <Timelines />
+        </div>
 
-        <Contacts />
+        <div className='section'>
+          <div className='section-title'>Contacts</div>
+          <Contacts />
+        </div>
       </div>
     </div>
   );

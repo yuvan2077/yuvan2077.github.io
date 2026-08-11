@@ -8,14 +8,6 @@ export interface HeaderDetails {
   summaryAfterRole: string;
 }
 
-export interface ExperienceDetails {
-  company: string;
-  role: string;
-  startDate: Date;
-  endDate: Date | null;
-  summary: string[];
-}
-
 export interface SkillDetails {
   category: string;
   skills: string[];
@@ -33,6 +25,7 @@ export interface TimelineDetails {
   endDate?: Date;
   event: string;
   location: string;
+  eventDescription: string[];
 }
 
 export interface ContactDetails {

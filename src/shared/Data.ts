@@ -1,7 +1,6 @@
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import type {
   HeaderDetails,
-  ExperienceDetails,
   SkillDetails,
   ProjectDetails,
   TimelineDetails,
@@ -22,20 +21,7 @@ export const headerDetails: HeaderDetails = {
   summaryAfterRole:
     'with 2+ years of experience using Angular to create pixel-perfect, clean and beautiful user interfaces, seeking for an opportunity to build high-quality, impactful web applications',
 };
-export const experience: ExperienceDetails[] = [
-  {
-    company: 'Accenture',
-    role: 'Software Analyst',
-    startDate: new Date('2023-10-17'),
-    endDate: null,
-    summary: [
-      'Developed Angular interfaces, implementing full UI functionality including interactive data tables and user-driven input.',
-      'Implemented functionality across frontend, APIs, and database components, debugging and resolving issues as needed.',
-      'Refactored Angular code and redesigned UI for compatibility with the latest framework version, improving performance, consistency, and stability.',
-      'Enhanced product quality by addressing UI and functional defects and collaborating across teams to accelerate delivery.',
-    ],
-  },
-];
+
 export const skills: SkillDetails[] = [
   {
     category: 'Front-end',
@@ -65,6 +51,7 @@ export const skills: SkillDetails[] = [
     ],
   },
 ];
+
 export const projects: ProjectDetails[] = [
   {
     title: 'Rash Driving Analyzer',
@@ -88,30 +75,41 @@ export const projects: ProjectDetails[] = [
     endDate: new Date('2021-03-01'),
   },
 ];
+
 export const timelines: TimelineDetails[] = [
   {
     event: 'Software Developer',
     startDate: new Date('2023-10-17'),
     location: 'Accenture',
+    eventDescription: [
+      'Developed Angular interfaces, implementing full UI functionality including interactive data tables and user-driven input.',
+      'Implemented functionality across frontend, APIs, and database components, debugging and resolving issues as needed.',
+      'Refactored Angular code and redesigned UI for compatibility with the latest framework version, improving performance, consistency, and stability.',
+      'Enhanced product quality by addressing UI and functional defects and collaborating across teams to accelerate delivery.',
+    ],
   },
   {
     event: 'College',
     startDate: new Date('2019-07-01'),
     endDate: new Date('2023-04-01'),
     location: 'SRM Valliammai Engineering College',
+    eventDescription: [],
   },
   {
     event: 'School',
     startDate: new Date('2006-07-01'),
     endDate: new Date('2019-05-01'),
     location: 'St. Vincent Pallotti Mat. Hr. Sec. School',
+    eventDescription: [],
   },
   {
     event: 'Born',
     startDate: new Date('2002-01-10'),
     location: 'Some hospital at Perungalathur',
+    eventDescription: [],
   },
 ];
+
 export const contacts: ContactDetails[] = [
   {
     name: 'E-mail',
