@@ -13,8 +13,9 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 export const headerDetails: HeaderDetails = {
-  name: 'Yuvankumar Rajagopal',
-  id: 'Yukon2077',
+  name: 'Yuvan',
+  fullName: 'Yuvankumar Rajagopal',
+  id: 'yuvan2077',
   role: 'Software Developer',
   summary:
     "I'm a software developer with 2+ years of experience using Angular to create pixel-perfect, clean and beautiful user interfaces, seeking for an opportunity to build high-quality, impactful web applications",
@@ -113,12 +114,12 @@ export const timelines: TimelineDetails[] = [
 export const contacts: ContactDetails[] = [
   {
     name: 'E-mail',
-    link: 'yuvankumar2077@gmail.com',
+    link: 'mailto:yuvankumar2077@gmail.com',
     icon: faEnvelope,
   },
   {
     name: 'WhatsApp',
-    link: '+91 74189 06123',
+    link: 'https://wa.me/917418906123',
     icon: faWhatsapp,
   },
   {

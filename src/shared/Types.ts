@@ -1,7 +1,8 @@
-import type { IconProp } from "@fortawesome/fontawesome-svg-core";
+import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 export interface HeaderDetails {
   name: string;
+  fullName: string;
   id: string;
   role: string;
   summary: string;

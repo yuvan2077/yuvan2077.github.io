@@ -58,10 +58,6 @@
 		active:text-primary-800 active:scale-80 active:drop-shadow-xs;
 }
 
-/* .section {
-  @apply h-screen;
-} */
-
-.section .section-title {
-  @apply text-primary-300 text-xl mb-2;
+.section {
+  @apply h-screen max-w-4xl m-auto content-center;
 }
